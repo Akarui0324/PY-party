@@ -14,6 +14,13 @@ if (isEmpty(cardInput.value)) {
   return false;
 
 }
+else{
+showFieldError(
+    cardInput,
+    "屁眼超大"
+  );
+
+}
 
 
 
